@@ -149,6 +149,7 @@ output application/json
 		</ee:transform>
 	</flow>
 	<flow name="get:\payments:partner-process-api-config">
+		<logger level="INFO" doc:name="Logger" doc:id="e033f95b-8582-483f-879a-12908c67b027" />
     </flow>
     <flow name="get:\orders\(ID):partner-process-api-config">
         <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core">
